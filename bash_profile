@@ -4,6 +4,5 @@ function parse_git_branch() {
 
 export PS1="\u@\h \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
 
-export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
-export PATH=/etc/mongo/bin:$PATH
-
+export VISUAL=vim
+export EDITOR="$VISUAL"
